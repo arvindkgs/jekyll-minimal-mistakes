@@ -181,8 +181,6 @@ collections:
     output: true
     permalink: "/:collection/:path/"
 defaults:
-- scope: ''
-  values: ''
 - scope:
     path: ''
     type: posts
@@ -193,6 +191,8 @@ defaults:
     comments: 
     share: true
     related: true
+- scope: ''
+  values: ''
 - scope:
     path: _pages
     type: pages
