@@ -181,6 +181,8 @@ collections:
     output: true
     permalink: "/:collection/:path/"
 defaults:
+- scope: ''
+  values: ''
 - scope:
     path: ''
     type: posts
@@ -205,11 +207,3 @@ defaults:
     author_profile: true
     share: true
     comments: true
-- scope:
-    path: ''
-    type: pets
-  values:
-    layout: single
-    author_profile: true
-    share: true
-    comment: true
